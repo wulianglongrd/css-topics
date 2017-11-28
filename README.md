@@ -1,2 +1,2 @@
 # css-topics
-some css topics, practical code for web developer
+some css topics, practical code from work
