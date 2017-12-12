@@ -1,9 +1,9 @@
 # css话题及实用代码
 
-此项目不是教程，仅仅个人对工作中的常见问题的总结及常用代码的备份
+此项目不是教程，仅是个人对工作中的常见问题的总结及常用代码的备份
 
 ## toptics
-* [reset](./docs/resset.md)
+* [reset](./docs/reset.md)
 * [盒子模型](./docs/box.md)
 * [flex](./docs/flex.md)
 * [居中](./docs/centering.md)
