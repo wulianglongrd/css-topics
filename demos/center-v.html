@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>垂直居中</title>
+	<style type="text/css">
+	.group {
+		display: inline-table;
+		vertical-align: middle;
+	}
+	.group span,
+	.group input {
+		display: table-cell;
+		padding: 6px 12px;
+		font-size: 14px;
+		line-height: 1;
+	}
+	.group span {
+		border: 1px solid #ccc;
+	}
+	</style>
+</head>
+<body>
+	<div class="group">
+		<span>$</span>
+		<input type="text" placeholder="default">
+		<span>.00</span>
+	</div>
+</body>
+</html>
