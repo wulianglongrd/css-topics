@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>水平居中</title>
+	<style type="text/css">
+	.parent {
+		margin: 20px 30px;
+		border: 1px solid #e8e8e8;
+		padding: 20px;
+	}
+	.child {
+		background: #08979c;
+		width: 250px;
+	}
+	
+	/**
+	 * 文本及行内元素
+	 */
+	.demo-1 {
+		text-align: center;
+	}
+	.demo-1 .child {
+		display: inline-block;
+	}
+
+	/**
+	 * 块级元素，子容器需要设置宽度
+	 */
+	.demo-2 .child {
+		margin: 0 auto;
+	}
+	
+	/**
+	 * 绝对定位 + transform
+	 */
+	.demo-3 {
+		position: relative;
+	}
+	.demo-3 .child {
+		position: absolute;
+		top: 0;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	
+	/**
+	 * flex
+	 */
+	.demo-4 {
+		display: flex;
+		justify-content: center
+	}
+	</style>
+</head>
+<body>
+
+	<div class="parent demo-1">
+		<div class="child">
+			1. 文本及行内元素 text-align
+		</div>
+	</div>
+
+	<div class="parent demo-2">
+		<div class="child">
+			2. 块级元素 margin
+		</div>
+	</div>
+	
+	<div class="parent demo-3">
+		<div class="child">
+			3. 绝对定位 + transform
+		</div>
+	</div>	
+
+	<div class="parent demo-4">
+		<div class="child">
+			 4. flex
+		</div>
+	</div>	
+	
+</body>
+</html>
