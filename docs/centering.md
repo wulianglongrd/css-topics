@@ -1,7 +1,7 @@
 ## 居中
 
 ## 水平居中
-[示例源码](../demos/center-v.html) <br/>
+[示例源码](../demos/center-h.html) <br/>
 1. text-align: center
 适用文本及行内元素
 ```css
