@@ -14,5 +14,4 @@
 * [换行和断字](./docs/word.md)
 * [阴影](./docs/box-shadow-and-linear-gradient.md)
 * [动画](./docs/animate.md)
-<br/>
-* [禁用背景滚动](./docs/fix-background.md)
+* [禁用背景滚动](./docs/fix-bg.md)
