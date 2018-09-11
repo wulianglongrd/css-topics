@@ -1,4 +1,4 @@
-## 盒子模型
+## 字号
 
 设置字体大小
 
@@ -19,7 +19,7 @@ const resetRemUnit = (designWidth) => {
   html.style.fontSize = width / (designWidth / 100) + 'px'
 }
 ```
-以下我们假如设计稿的宽度是750px，我们需要一个时机调用resetRemUnit方法并注册resize事件，使用页面能够根据宽度自动调用font-size
+以下我们假如设计稿的宽度是750px，我们需要一个时机调用resetRemUnit方法并注册resize事件，使用页面能够根据宽度自动调整font-size
 ```js
 resetRemUnit(750)
 window.addEventListener('resize', () => {
@@ -34,3 +34,6 @@ window.addEventListener('resize', () => {
   font-size: .14rem;
 }
 ```
+
+字号的注意事项：<br/>
+中文最小字号是12px
