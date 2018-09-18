@@ -1,6 +1,4 @@
-# css话题及实用代码
-
-此项目不是教程，仅是个人对工作中的常见问题的总结及常用代码的备份
+# some css topics, practical code from work
 
 ## topics
 * [reset](./docs/reset.md)
